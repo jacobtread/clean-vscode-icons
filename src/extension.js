@@ -1,5 +1,5 @@
 import fs from "fs";
-import { icons, folderIcons } from "./icons.js";
+import icons from "./icons.js";
 import fileExtensions from "./icons/fileExtensions.js";
 import fileNames from "./icons/fileNames.js";
 import folderNames from "./icons/folderNames.js";
@@ -11,11 +11,11 @@ const iconTheme = {
   author: "Jacobtread",
   themes: [
     {
-      name: "Bearded Icon Theme",
+      name: "VSCode Icon Theme",
       appearance: "dark",
       directory_icons: {
-        collapsed: "./icons/folders/folder.svg",
-        expanded: "./icons/folders/folder_open.svg",
+        collapsed: "./icons/folder.svg",
+        expanded: "./icons/folder_open.svg",
       },
       named_directory_icons: {
         collapsed: folderNames,
@@ -24,7 +24,6 @@ const iconTheme = {
       file_stems: fileNames,
       file_suffixes: fileExtensions,
       file_icons: icons,
-      folder_icons: folderIcons,
     },
   ],
 };

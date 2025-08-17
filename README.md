@@ -28,6 +28,11 @@ Port of https://github.com/mazesec/vscode-icons to work with the **Zed** editor
 
 This project exists thanks to all the people who contribute.
 
+<a href="https://github.com/jacobtread/zed-vscode-icons/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=jacobtread/zed-vscode-icons"/>
+
+</a>
+
 <a href="https://github.com/tal7aouy/vscode-icons/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=tal7aouy/vscode-icons"/>
 

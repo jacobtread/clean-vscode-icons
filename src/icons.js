@@ -22,7 +22,9 @@ function folderIcon(name) {
   };
 }
 
-export const folderIcons = {
+
+
+const icons = {
   ...iconGeneric("folder"),
   ...iconGeneric("folder_open"),
 
@@ -368,9 +370,6 @@ export const folderIcons = {
   ...folderIcon("folder_next_open"),
   ...folderIcon("folder_cmake"),
   ...folderIcon("folder_cmake_open"),
-};
-
-export const icons = {
   ...iconGeneric("file"),
   ...icon("abc"),
   ...icon("azure-pipelines"),
@@ -761,3 +760,5 @@ export const icons = {
   ...icon("tobi"),
   ...icon("puppeteer"),
 };
+
+export default icons;
