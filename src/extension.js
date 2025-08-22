@@ -7,7 +7,7 @@ import folderNamesExpanded from "./icons/folderNamesExpanded.js";
 
 const iconTheme = {
   $schema: "https://zed.dev/schema/icon_themes/v0.2.0.json",
-  name: "VSCode Icon Theme",
+  name: "Clean VSCode Icon Theme",
   author: "Jacobtread",
   themes: [
     {
@@ -30,7 +30,7 @@ const iconTheme = {
 
 fs.writeFile(
   "icon_themes/vscode-icon-theme.json",
-  JSON.stringify(iconTheme),
+  JSON.stringify(iconTheme, undefined, 4),
   (err) => {
     if (err) {
       console.log("error", err);
