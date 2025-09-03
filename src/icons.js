@@ -22,8 +22,6 @@ function folderIcon(name) {
   };
 }
 
-
-
 const icons = {
   ...iconGeneric("folder"),
   ...iconGeneric("folder_open"),

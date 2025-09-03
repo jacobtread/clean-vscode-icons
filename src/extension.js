@@ -4,6 +4,12 @@ import fileExtensions from "./icons/fileExtensions.js";
 import fileNames from "./icons/fileNames.js";
 import folderNames from "./icons/folderNames.js";
 import folderNamesExpanded from "./icons/folderNamesExpanded.js";
+import { makeFolderIconPairs } from "./helper.js";
+
+const folderPairs = makeFolderIconPairs(
+    folderNames,
+    folderNamesExpanded
+)
 
 const iconTheme = {
   $schema: "https://zed.dev/schema/icon_themes/v0.2.0.json",
@@ -17,10 +23,7 @@ const iconTheme = {
         collapsed: "./icons/folder.svg",
         expanded: "./icons/folder_open.svg",
       },
-      named_directory_icons: {
-        collapsed: folderNames,
-        expanded: folderNamesExpanded,
-      },
+      named_directory_icons: folderPairs,
       file_stems: fileNames,
       file_suffixes: fileExtensions,
       file_icons: icons,
