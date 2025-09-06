@@ -17,7 +17,7 @@ const iconTheme = {
   author: "Jacobtread",
   themes: [
     {
-      name: "VSCode Icon Theme",
+      name: "Clean VSCode Icon Theme",
       appearance: "dark",
       directory_icons: {
         collapsed: "./icons/folder.svg",
