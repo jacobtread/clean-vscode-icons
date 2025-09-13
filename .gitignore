@@ -2,7 +2,6 @@ node_modules
 app
 out
 npm-debug.log
-package-lock.json
 *.vsix
 icons.json
 *.lock

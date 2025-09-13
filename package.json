@@ -1,29 +1,29 @@
 {
-  "name": "zed-vscode-icons",
-  "displayName": "Zed VSCode Icons",
-  "description": "Icons for Visual Studio Code ported to Zed.",
-  "version": "0.1.0",
-  "main": "./src/extension.js",
-  "activationEvents": [
-    "onIdentity:identity"
-  ],
-  "type": "module",
-  "scripts": {
-    "build": "node ./src/extension.js",
-    "lint": "eslint . --ext .js --fix"
-  },
-  "contributors": [
-    {
-      "email": "jacobtread@gmail.com",
-      "name": "Jacobtread"
+    "name": "zed-vscode-icons",
+    "displayName": "Zed VSCode Icons",
+    "description": "Icons for Visual Studio Code ported to Zed.",
+    "version": "0.1.1",
+    "main": "./src/extension.js",
+    "activationEvents": [
+        "onIdentity:identity"
+    ],
+    "type": "module",
+    "scripts": {
+        "build": "node ./src/extension.js",
+        "lint": "eslint . --ext .js --fix"
     },
-    {
-      "email": "talhaouycoding@gmail.com",
-      "name": "Mhammed Talhaouy"
+    "contributors": [
+        {
+            "email": "jacobtread@gmail.com",
+            "name": "Jacobtread"
+        },
+        {
+            "email": "talhaouycoding@gmail.com",
+            "name": "Mhammed Talhaouy"
+        }
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "@types/node": "^24.3.0"
     }
-  ],
-  "license": "MIT",
-  "dependencies": {
-    "@types/node": "^24.3.0"
-  }
 }
